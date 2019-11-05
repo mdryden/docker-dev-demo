@@ -1,0 +1,20 @@
+{
+  "name": "docker-dev-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdryden/docker-dev-demo.git"
+  },
+  "author": "Michael Dryden",
+  "license": "MIT",
+  "homepage": "https://github.com/mdryden/docker-dev-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
