@@ -1,4 +1,4 @@
-# Developing and Deploying in Docker
+# Developing and Deploying with Docker
 
 ## Pre-requisites
 
