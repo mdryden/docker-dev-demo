@@ -6,6 +6,7 @@ const express = require('express');
 // App
 const app = express();
 app.get('/', (req, res) => {
+    console.log("Hit default endpoint")
     res.send('Hello, World!\n');
 });
 
