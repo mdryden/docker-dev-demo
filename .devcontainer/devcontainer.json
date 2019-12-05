@@ -27,7 +27,7 @@
 	},
 	// Uncomment the next line if you want to publish any ports.
 	"appPort": [
-		8080
+		"8080:80"
 	],
 	// Uncomment the next line to run commands after the container is created - for example installing git.
 	// "postCreateCommand": "apt-get update && apt-get install -y git",

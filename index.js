@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 // This is special for cloud run - the usage contract specifies you must listen on the port they supply via the PORT environment variable
 // For some other hosting environment, you could hardcode this.
 // In dev, we will not provide the port variable, so the app will fall back to 8080
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 app.listen(port, () => {
     console.log(`Docker dev demo running on port ${port}`);
 });
